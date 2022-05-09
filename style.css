@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,600;1,900&display=swap');
+body {
+  background-color: rgb(234, 242, 255);
+  font-family: 'Source Serif Pro', sans-serif;
+  /* text-align: center; */
+}
+
+h1 {
+  color: rgb(79, 78, 129);
+  font-size: 38px;
+}
+
+h2 {
+  color:rgb(167, 208, 146);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+p {
+  color: rgb(145, 145, 145);
+}
+
+a {
+  color: rgb(161, 161, 161);
+}
+
+a:hover {
+  color: rgb(39, 138, 77);
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+  text-align: center;
+}
+.img-corners {
+  border-radius: 20px;
+}
+
+.btn{
+  background-color: rgb(145, 145, 145);
+  color: rgb(255, 255, 255);
+  padding: 15px 15px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: rgb(39, 138, 77);
+  color: white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  letter-spacing: 7px;
+}
+
+#intro-card{
+    padding-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
